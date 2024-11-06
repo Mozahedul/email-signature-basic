@@ -11,16 +11,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="x-apple-disable-message-reformatting" />
+    <meta name="x-apple-disable-message-reformatting" content="true" />
 
     <meta
       name="format-detection"
       content="telephone=no,address=no,email=no,date=no,url=no"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet"
     />
     <title>Responsive HTML Email Template</title>
   </head>
@@ -29,9 +24,7 @@
       border="0"
       cellpadding="0"
       cellspacing="0"
-      role="presentation"
       width="100%"
-      height="100%"
       style="
         table-layout: fixed;
         width: 100% !important;
@@ -40,10 +33,8 @@
         font-weight: normal;
       "
     >
-      <br />
-      <br />
-
       <tr style="margin: 20px 0; vertical-align: top">
+        <!-- ========= Start Left section ====== -->
         <td
           align="center"
           valign="top"
@@ -72,7 +63,7 @@
               >
                 <img
                   src="https://i.postimg.cc/25GBrJVW/profile.png"
-                  alt="Site logo"
+                  alt="profile logo"
                   class="column-img"
                   width="100"
                   style="width: 100%"
@@ -84,46 +75,61 @@
                 <table>
                   <tr>
                     <td>
-                      <a href="https://facebook.com">
+                      <a
+                        href="https://facebook.com"
+                        onclick="window.open(this.href, '_blank'); return false"
+                      >
                         <img
                           src="https://i.postimg.cc/4yt1b9vZ/fb.png"
-                          alt="Facebook"
+                          alt="Facebook icon"
                           width="22"
                         />
                       </a>
                     </td>
                     <td>
-                      <a href="https://twitter.com">
+                      <a
+                        href="https://twitter.com"
+                        onclick="window.open(this.href, '_blank'); return false"
+                      >
                         <img
                           src="https://i.postimg.cc/8CDmdcsg/twitter.png"
-                          alt="Twitter"
+                          alt="Twitter icon"
                           width="22"
                         />
                       </a>
                     </td>
                     <td>
-                      <a href="https://linkedin.com">
+                      <a
+                        href="https://linkedin.com"
+                        onclick="window.open(this.href, '_blank'); return false"
+                      >
                         <img
                           src="https://i.postimg.cc/c4r96vtD/linkedin.png"
-                          alt="Linkedin"
+                          alt="Linkedin icon"
                           width="24"
                         />
                       </a>
                     </td>
                     <td>
-                      <a href="https://pinterest.com">
+                      <a
+                        href="https://pinterest.com"
+                        onclick="window.open(this.href, '_blank'); return false"
+                      >
                         <img
                           src="https://i.postimg.cc/qMPLRjTR/pinterest.png"
-                          alt="Facebook"
+                          alt="Facebook icon"
                           width="22"
                         />
                       </a>
                     </td>
                     <td>
-                      <a href="https://instagram.com">
+                      <a
+                        href="https://instagram.com"
+                        onclick="window.open(this.href, '_blank'); return false"
+                      >
                         <img
                           src="https://i.postimg.cc/HnWN63xH/instagram.png"
-                          alt="Instagram"
+                          alt="Instagram icon"
                           width="24"
                         />
                       </a>
@@ -134,7 +140,9 @@
             </tr>
           </table>
         </td>
+        <!-- ======== End Left Section ========= -->
 
+        <!-- ======== Start Right Section ====== -->
         <td>
           <table
             cellpadding="0"
@@ -153,193 +161,199 @@
                 valign="top"
                 style="width: 100%; vertical-align: top"
               >
-                <tr>
-                  <td>
-                    <img
-                      src="https://i.postimg.cc/sDSZpfJJ/signature-email.png"
-                      alt="signature"
-                      width="100"
-                    />
-                  </td>
-                </tr>
-                <tr>
-                  <td
-                    style="
-                      font-size: 18px;
-                      font-weight: 600;
-                      text-align: left;
-                      letter-spacing: 0.8px;
-                      margin: 0;
-                      padding: 4px 0;
-                    "
-                  >
-                    Philip <span style="color: orange">Parrett</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td
-                    style="
-                      font-size: 12px;
-                      text-align: left;
-                      color: gray;
-                      margin: 0;
-                      padding: 0;
-                    "
-                  >
-                    CEO & Founder
-                  </td>
-                </tr>
-                <tr>
-                  <td
-                    style="
-                      font-size: 14px;
-                      text-align: left;
-                      margin: 0;
-                      padding-top: 10px;
-                    "
-                  >
-                    <a
-                      href="tel:+8801738648749"
+                <table cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td>
+                      <img
+                        src="https://i.postimg.cc/sDSZpfJJ/signature-email.png"
+                        alt="signature"
+                        width="100"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
                       style="
-                        text-decoration: none;
-                        line-height: 1;
-                        display: inline-block;
+                        font-size: 18px;
+                        font-weight: 600;
+                        text-align: left;
+                        letter-spacing: 0.8px;
+                        margin: 0;
+                        padding: 4px 0;
                       "
                     >
-                      <img
-                        src="https://i.postimg.cc/FK20KKcL/phone-icon.png"
-                        alt="mobile"
-                        width="22"
-                        style="vertical-align: middle"
-                      />
-                      <span
-                        style="
-                          padding-left: 4px;
-                          color: #424242;
-                          font-weight: 400;
-                        "
-                        >415-472-8986</span
-                      >
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td
-                    style="
-                      font-size: 14px;
-                      text-align: left;
-                      margin: 0;
-                      padding-top: 4px;
-                    "
-                  >
-                    <a
-                      href="tel:+8801738648749"
+                      Philip <span style="color: orange">Parrett</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
                       style="
-                        text-decoration: none;
-                        line-height: 1;
-                        display: inline-block;
+                        font-size: 12px;
+                        text-align: left;
+                        color: gray;
+                        margin: 0;
+                        padding: 0;
                       "
                     >
-                      <img
-                        src="https://i.postimg.cc/tTqpW3hQ/mail-solid.png"
-                        alt=""
-                        width="20"
-                        style="vertical-align: middle"
-                      />
-                      <span
-                        style="
-                          padding-left: 4px;
-                          color: #424242;
-                          font-weight: 400;
-                        "
-                        >PhilipLParrett@teleworm.us</span
-                      >
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td
-                    style="
-                      font-size: 14px;
-                      text-align: left;
-                      margin: 0;
-                      padding-top: 4px;
-                    "
-                  >
-                    <a
-                      href="tel:+8801738648749"
+                      CEO &amp; Founder
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
                       style="
-                        text-decoration: none;
-                        line-height: 1;
-                        display: inline-block;
+                        font-size: 14px;
+                        text-align: left;
+                        margin: 0;
+                        padding-top: 10px;
                       "
                     >
-                      <img
-                        src="https://i.postimg.cc/QMbr8Fv6/website.png"
-                        alt=""
-                        width="22"
-                        style="vertical-align: middle"
-                      />
-                      <span
+                      <a
+                        href="tel:+8801738648749"
                         style="
-                          padding-left: 4px;
-                          color: #424242;
-                          font-weight: 400;
+                          text-decoration: none;
+                          line-height: 1;
+                          display: inline-block;
                         "
-                        >https://teleworm.us</span
+                        onclick="window.open(this.href, '_blank'); return false"
                       >
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td
-                    style="
-                      font-size: 14px;
-                      text-align: left;
-                      margin: 0;
-                      padding-top: 4px;
-                    "
-                  >
-                    <a
-                      href="tel:+8801738648749"
+                        <img
+                          src="https://i.postimg.cc/FK20KKcL/phone-icon.png"
+                          alt="mobile"
+                          width="22"
+                          style="vertical-align: middle"
+                        />
+                        <span
+                          style="
+                            padding-left: 4px;
+                            color: #424242;
+                            font-weight: 400;
+                          "
+                          >415-472-8986</span
+                        >
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
                       style="
-                        text-decoration: none;
-                        line-height: 1;
-                        display: inline-block;
+                        font-size: 14px;
+                        text-align: left;
+                        margin: 0;
+                        padding-top: 4px;
                       "
                     >
-                      <img
-                        src="https://i.postimg.cc/x89N4xBs/fax-machine.png"
-                        alt=""
-                        width="20"
-                        style="vertical-align: middle"
-                      />
-                      <span
+                      <a
+                        href="mailto:mozahed001@gmail.com"
                         style="
-                          padding-left: 4px;
-                          color: #424242;
-                          font-weight: 400;
+                          text-decoration: none;
+                          line-height: 1;
+                          display: inline-block;
                         "
-                        >https://fax.us</span
+                        onclick="window.open(this.href, '_blank'); return false"
                       >
-                    </a>
-                  </td>
-                </tr>
+                        <img
+                          src="https://i.postimg.cc/tTqpW3hQ/mail-solid.png"
+                          alt=""
+                          width="20"
+                          style="vertical-align: middle"
+                        />
+                        <span
+                          style="
+                            padding-left: 4px;
+                            color: #424242;
+                            font-weight: 400;
+                          "
+                          >PhilipLParrett@teleworm.us</span
+                        >
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        font-size: 14px;
+                        text-align: left;
+                        margin: 0;
+                        padding-top: 4px;
+                      "
+                    >
+                      <a
+                        href="https://wikipedia.com"
+                        style="
+                          text-decoration: none;
+                          line-height: 1;
+                          display: inline-block;
+                        "
+                        onclick="window.open(this.href, '_blank'); return false"
+                      >
+                        <img
+                          src="https://i.postimg.cc/QMbr8Fv6/website.png"
+                          alt=""
+                          width="22"
+                          style="vertical-align: middle"
+                        />
+                        <span
+                          style="
+                            padding-left: 4px;
+                            color: #424242;
+                            font-weight: 400;
+                          "
+                          >https://teleworm.us</span
+                        >
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        font-size: 14px;
+                        text-align: left;
+                        margin: 0;
+                        padding-top: 4px;
+                      "
+                    >
+                      <a
+                        href="https://github.com/"
+                        style="
+                          text-decoration: none;
+                          line-height: 1;
+                          display: inline-block;
+                        "
+                        onclick="window.open(this.href, '_blank'); return false"
+                      >
+                        <img
+                          src="https://i.postimg.cc/x89N4xBs/fax-machine.png"
+                          alt=""
+                          width="20"
+                          style="vertical-align: middle"
+                        />
+                        <span
+                          style="
+                            padding-left: 4px;
+                            color: #424242;
+                            font-weight: 400;
+                          "
+                          >https://fax.us</span
+                        >
+                      </a>
+                    </td>
+                  </tr>
+                </table>
               </td>
             </tr>
           </table>
         </td>
+        <!-- ======== End Right Section ====== -->
       </tr>
 
+      <!-- ========== Start Email Footer ======= -->
       <tr>
         <td>
           <table
             border="0"
             cellpadding="0"
             cellspacing="0"
-            role="presentation"
             width="100%"
-            height="100%"
             style="
               table-layout: fixed;
               width: 100% !important;
@@ -369,6 +383,8 @@
           </table>
         </td>
       </tr>
+
+      <!-- ========== End Email Footer ======= -->
     </table>
   </body>
 </html>
